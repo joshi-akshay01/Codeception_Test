@@ -1,0 +1,165 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" style="" class=" js flexbox flexboxlegacy rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent"><head>
+								    <meta name="viewport" content="width=device-width" />
+			    <meta name="viewport" content="initial-scale=1.0" />
+				<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		    
+		    		    	<title>CableCo | Sign In</title>
+		    
+				  						
+							<script src="/js/modernizr.js"></script>
+			
+							<script src="/js/jquery-1.11.1.min.js"></script>
+			
+							<link href="/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+				<script src="/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			
+											
+			
+															<link rel="stylesheet" type="text/css" href="/css/default/base.css" />
+			
+								<script src="/js/default/base.js"></script>
+			
+
+						<style>
+			.modal-sm {
+				width: auto;
+			}
+
+											
+						.submit-button {
+							background-color: #39A27C;
+						}
+
+						#form-content a, #bodyContent a {
+							color: #337ab7;
+						}
+
+																									
+																			
+						.content .progress {
+							background-color: #75CCA7;
+						}
+
+						.content .progress .indeterminate {
+							background-color: #39A27C;
+						}
+
+						
+										
+				</style>
+
+								  	</head>
+	<body>
+				  		
+		<div id="bodyContent">
+			<div class="content mvpd-login">
+									<header class="header">
+			    																<img class="logo mvpd-logo " src="/images/cableco/Cableco_160x60.png" alt="Cable Co" />
+					
+									<div class="clearfix"></div>
+
+	
+				
+													<h2 class="component-header ">Sign In</h2>
+						
+						<h3 class="register">Don't have an account yet? <a href="/saml/module.php/accounthub/register/user-register.php?multistage=rg_av">Register</a></h3>
+								</header>
+
+						<div class="main-body">
+				
+							
+												    			    				    			            	<form id="main-form" method="POST">
+            		    		        	    						<input type="hidden" name="AuthState" value="_265fe97f4ad1cb7751cb90a33aae8b7fd7da254665:https://magic.auth-gateway.net/saml/saml2/idp/SSOService.php?spentityid=https%3A%2F%2Fsp.synacor.net%2Fsaml%2Fsaml2%2Fsp%2Fmetadata.php&amp;cookieTime=1548235250&amp;RelayState=https%3A%2F%2Fsp.synacor.net%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dsp.synacor.net&amp;NameIDFormat=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Anameid-format%3Atransient" />
+    											<div class="form-group">
+		<input placeholder="Enter your username" onfocus="showElement('username-help')" onblur="hideElement('username-help')" class="form-control" id="username" type="text" name="username" value="" tabindex="1" autocapitalize="off" autocorrect="off" required="" autofocus="" />
+		</div>
+		 <label for="username" id="username-help" class="field-help">Sign in using your Cable Co username</label>
+		
+
+    											<div class="form-group">
+		<input placeholder="Password" onfocus="showElement('password-help')" onblur="hideElement('password-help')" class="form-control" id="password" type="password" name="password" value="" tabindex="2" autocapitalize="off" autocorrect="off" required="" />
+			<a class="password-toggle" onclick="toggleShowPassword('password', 'Show', 'Hide', this)">Show</a>
+		</div>
+		
+    						<input type="hidden" name="login_type" value="username,password" />
+    						<input type="hidden" name="source" value="" />
+    		        	
+<input type="hidden" name="login_type" value="username,password" />
+
+    		        	    						<ul class="errors">
+    							    						</ul>
+    					
+    					    						<button id="login" type="submit" class="login submit-button">Sign In</button>
+    					    				                <div class="clearfix">
+    				    					    						<!-- remember_me Area -->
+    						<div class="checkbox-group remember" onmouseover="mouseOverToPopupRememberMe(true);" onmouseout="mouseOverToPopupRememberMe(false);">
+    							<input type="checkbox" id="remember_me" name="remember_me" value="yes" tabindex="4" checked="checked" />
+    							<label for="remember_me">Remember Me</label>
+    						</div>
+    						<div id="rememberMePopup">Why Remember Me?<br /><br /> <p>When you choose "Remember Me" on sign in, we will remember who you are and keep you signed in for up to 90 days unless you sign out or your browser cookies are deleted.</p> <p>But be careful: If you share your personal computer or device with others, they could access and make changes to your account. <span style="font-weight: bold;">You should definitely not use "Remember Me" on public computers and devices.</span></p>
+</div>
+    					    				
+                                                                    	<a target="_blank" class="forgot-password pull-right" href="/saml/module.php/accounthub/password/forgot-email.php?multistage=fp_qa">Forgot Password?</a>
+                                                            </div>
+			</form>
+					
+		
+		            <ul class="social-links">
+                            </ul>
+						</div>
+
+						<ul class="self-care">
+																				<li>
+							
+							
+							<a target="_blank" id="forgot_username" href="/saml/module.php/authSynacor/accounthub/username/forgot.php"></a>
+						</li>
+									
+															</ul>
+			
+					<footer class="footer">
+									<p class="footer-message"></p>
+						</footer>
+							</div>
+
+						
+		    		    						<script type="text/javascript" src="https://magic.auth-gateway.net/saml/resources/omniture/s_code.js"></script>
+<script type="text/javascript">&lt;!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.pageName="Federated Login";
+s.server="";
+s.channel="";
+s.pageType="";
+s.prop1="A Magic Client";
+s.prop2="";
+s.prop3="";
+s.prop4="";
+s.prop5="";
+s.prop6="Federated Login";
+s.prop7="e28751987b890a66a4f0ff8a5986902f";
+/* Conversion Variables */
+s.campaign="";
+s.state="";
+s.zip="";
+s.events="";
+s.products="";
+s.purchaseID="";
+s.eVar1="";
+s.eVar2="";
+s.eVar3="";
+s.eVar4="";
+s.eVar5="";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--&gt;
+</script>
+<script type="text/javascript">&lt;!--
+if(navigator.appVersion.indexOf('MSIE')&gt;=0)document.write(unescape('%3C')+'\!-'+'-')
+//--&gt;</script><noscript>&lt;img src="https://synacor.112.2o7.net/b/ss/synacortve-idmtools/1/H.24.4--NS/0"
+height="1" width="1" border="0" alt="" /&gt;</noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.24.4. -->
+
+									</div>
+	
+
+</body></html>
