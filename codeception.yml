@@ -11,11 +11,5 @@ extensions:
         - Codeception\Extension\Logger
         - Codeception\Extension\Recorder:
                delete_successful: false
-    coverage:
-        enabled: true
-        remote: false
-        include:
-            - app/*
-        exclude:
-            - app/cache/*
+   
 
