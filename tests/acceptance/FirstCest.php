@@ -25,7 +25,7 @@ class FirstCest
 			$I->selectOption('//*[@id="dropdownlist"]','Atlantic Broadband (auth.atlanticbb.net)');
 			$I->click('.btn');
 			$I->fillfield('//*[@id="username"]','syn11@atlanticbb.net');
-			$I->fillfield('//*[@id="password"]','0');
+			$I->fillfield('//*[@id="password"]','syn@cortest');
 			$I->click('//*[@id="login"]'); 
 			$I->wait(10);
 			$I->seeInTitle('SAML 2.0 SP Demo Example');
