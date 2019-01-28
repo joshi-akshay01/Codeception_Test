@@ -16,6 +16,15 @@ modules:
                  chromeOptions: # additional chrome options
                  binary: "C:/chromedriver.exe"
             
+           
+env:
+  selenium:
+    extensions:
+        enabled:
+            -  Codeception\Extension\RunProcess:
+                  1: java -jar C:\Codeception_Test\selenium-server-standalone-3.141.59.jar
+                  sleep: 15 # wait 5 seconds for processes to boot
+
 # extensions:
 #     enabled:
 #         - Codeception\Extension\RunFailed

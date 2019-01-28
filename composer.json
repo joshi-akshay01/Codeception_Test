@@ -4,10 +4,9 @@
     },
     "require": {
         "phpoffice/phpspreadsheet": "^1.6",
-        "monolog/monolog": "^1.24"
+        "monolog/monolog": "^1.24",
+		"symfony/symfony": "4.1.*",
+        "symfony/process": "4.1.*"
     }
-    "require-dev": {
-    	"codeception/codeception": "2.*",
-    	"codeception/c3": "2.*"
-	}
+   
 }
